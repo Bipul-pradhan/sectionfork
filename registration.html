@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body bgcolor="#cccccc">
+
+    <table border="0" width="960px" align="center" callpadding="0px" cellspacing="0px">
+        <tr>
+            <td rowspan="2" valign="top" align="left">
+
+                <table width="100%" cellpadding="5" cellspacing="5">
+                    <tr>
+                        <td>
+                            <img src="image/logo.png" alt="Logo" title="Logo" width="150px"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="table.html">Home</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="download.html">Download</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+            <td height="150" valign="top">
+                   <img src="image/banners.jpg" alt="banner" title="banner" width="810px"/> 
+            </td>
+        </tr>
+        <tr>
+            <td height="400" valign="top">
+                <form action="#" name="Login" method="POST">
+                    <fieldset>
+                        <legend>login</legend>
+
+
+                        <input type="text" name="username" size="15" maxlength="50" placeholder="UserName" required="required" />
+
+                        <input type="password" name="password" size="15" maxlength="50" placeholder="Password" required="required"/>
+
+                        <input type="submit" name="submit" value="Login"/>
+                    </fieldset>
+                </form>
+
+
+                <form action="#" name="register" method="POST">
+                    <fieldset>
+                        <legend>Register</legend>
+                        <label>UserName</label>
+
+                        <input type="text" name="username" size="15" maxlength="50" placeholder="UserName" required="required" />
+                        <br/>
+                        <label>Password</label>
+
+                        <input type="password" name="password" size="15" maxlength="50" placeholder="Password" re
+<input type="password" name="password" size="15" maxlength="50" placeholder="Password" required="required"/>
+                        <br/>
+
+                        <input type="submit" name="submit" value="Register"/>
+                        <input type="reset" name="reset" value="Clear"/>
+
+                    </fieldset>
+                </form>
+
+
+                
+           <tr>
+            <td height="400" valign="top" colspan=2>
+
+                <form action="#" name="Login" method="POST">
+                    <fieldset>
+                        <legend>Register</legend>
+                        <label>UserName</label>
+
+                        <input type="text" name="username" size="15" maxlength="50" placeholder="UserName" required="required" />
+                        <br/>
+
+                         <label>Email</label>
+                        <input type="email" name="email" placeholder="you@domain.com" required="required" />
+                        <br/>
+
+                        
+                         <label>Password</label>
+
+                        <input type="pass
+ <input type="password" name="password" size="15" maxlength="50" placeholder="Password" required="required"/>
+                        <br/>
+
+                        <label>Courses</label>
+                        <input type="checkbox" name="php" value="php" checked="checked">PHP
+                        <input type="checkbox" name="java" value="java" >Java
+                        <input type="checkbox" name="asp" value="asp" >ASP
+                        <br/>
+
+                       <label>Gender</label>
+                        <input type="radio" name="gender" value="M" >Male
+                        <input type="radio" name="gender" value="F" checked="checked">FeMale
+                        <input type="radio" name="gender" value="O">Other
+                        <br/>
+                         
+                         <label>Photo</label>
+                        <input type="file" name="photo" >
+                        <br/>
+
+                        <input type="hidden" name="bipul" value="Bipul"/>
+
+                        <label>Country</label>
+                        <select name="country" size="5" 
+                            <option value="">--Choose--</option>
+                            <option value="NP" selected="selected" >Nepal</option>
+                            <option value="IN" >INDIA</option>
+                            <option value="BH" >Bhutan</option>
+                        </select> 
+                        <br/>
+
+                        <label>Comments</label>
+                        <textarea name="comments" rows="5" cols="40"></textarea>
+                        <br/>
+
+                        <input type="submit" name="submit" value="Register"/>
+                        <input type="reset" name="reset" value="Clear"/>
+                        <input type="button" name="close" value="Close" onclick="window.close()" />
+
+                    </fieldset>
+                </form>
+
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
